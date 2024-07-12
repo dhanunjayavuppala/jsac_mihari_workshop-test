@@ -21,4 +21,4 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           # Set API key(s) (ref. https://ninoseki.github.io/mihari/configuration/)
-        run: bundle exec mihari search -f /rules/havoc.yml
+        run: bundle exec mihari search -f rules/havoc.yml
